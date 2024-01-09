@@ -3,7 +3,7 @@ Bluetooth Remote Control Car is an ESP32-based project that can avoid obstacles.
 
 ## Components:
 
-![Components](https://github.com/mahfuzhasanreza/Bluetooth-RC-Car/blob/main/img/components.jpg =400)
+![Components](https://github.com/mahfuzhasanreza/Bluetooth-RC-Car/blob/main/img/components.jpg =400*300)
 
 ## Components Details  
 
