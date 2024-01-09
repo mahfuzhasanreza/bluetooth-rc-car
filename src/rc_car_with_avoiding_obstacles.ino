@@ -1,54 +1,3 @@
-# Bluetooth Remote Control Car
-Bluetooth Remote Control Car is an ESP32-based project that can avoid obstacles.
-
-## Components
-
-<img src="https://github.com/mahfuzhasanreza/Bluetooth-RC-Car/blob/main/img/components.jpg" alt="Components" width="700" height="450">
-
-## Components Details  
-
-- **ESP32**: For development puposes, we use this board.  
-
-- **L298N Motor Driver**: It controlled the motors.  
-
-- **4 DC Motors and Wheels**: It is used for moving the car (driving).  
-
-- **2 18650 Battery (Rechargeable)**: It is used for providing voltageto the circuit.
-
-- **Car Chassis (Optional)**: The main body to attach othercomponents (can use any PVC or cardboard as a base).
-
-- **Jumper Wires**: Male-to-male and male-to-female connectors forthe circuit (any normal wires can be used, though male-to-femaleconnectors are necessary for connecting with esp).
-
-- **Breadboard (Optional)**: For connection the wires with otherscomponents we used this board.
-
-## Following Steps
-
-
-## Circuit Diagram
-
-<img src="https://github.com/mahfuzhasanreza/Bluetooth-RC-Car/blob/main/img/circuit-diagram.jpg" alt="Components" width="700" height="450">
-
-## Internal Control
-
-- The bluetooth car app sends different characters fordifferent functions and the ESP receives them and controlsthe motors using the L298N motor driver module.  
-Forward → ‘F’  
-Back → ‘B’  
-Left → ‘L’  
-Right → ‘R’
-
-- To move forward the In1 and In3 gets HIGH and In2 andIn4 gets LOW. and we send the PWM value to both ENAand ENB pins. So, all motors run forward according to thevalue from PWM.
-  
-- To move Backward the In1 and In3 gets LOW and In2 andIn4 gets HIGH. We send the PWM value to both ENA andENB pins. So, all motors run Backward according to thevalue from PWM.
-  
-- To move Left the In1 and In4 gets LOW and In2 and In3gets HIGH. As a result the left runs backwards and theright motors run forward and the car turns left.
-
-- To move Right the In1 and In4 gets HIGH and In2 and In3gets LOW. As a result the right motors run backwards andthe left motors run forward and the car turns right.
-
-- From the speed setter function of the app we can sendvalues from 1 to 9 and ‘q’. So we set different speedvalues for these inputs in the ESP32. So the car can run atdifferent speeds.
-
-## Code Implementation
-
-```cpp
 #include <BluetoothSerial.h> 
 BluetoothSerial ESP_BT;
 
@@ -225,4 +174,3 @@ void loop(){
   }
     fflush(stdin);
 }
-```
