@@ -3,7 +3,7 @@ Bluetooth Remote Control Car is an ESP32-based project that can avoid obstacles.
 
 ## Components
 
-<img src="https://github.com/mahfuzhasanreza/Bluetooth-RC-Car/blob/main/img/components.jpg" alt="Components" height="450">
+<img src="https://github.com/mahfuzhasanreza/Bluetooth-RC-Car/assets/115473925/972e9ed8-9540-4640-b1a2-f3ce218c6164" alt="Components" height="450">
 
 ## Components Details  
 
@@ -25,19 +25,23 @@ Bluetooth Remote Control Car is an ESP32-based project that can avoid obstacles.
 
 1. First we attached the motors to a base. We connected them using the screw provided with the chassis. Glue gun can be used to attach the motors to the base.
 
-   <img src="https://github.com/mahfuzhasanreza/Bluetooth-RC-Car/blob/main/img/step-1.jpg" alt="Components" height="450">
+   <img src="https://github.com/mahfuzhasanreza/Bluetooth-RC-Car/assets/115473925/38185ace-2185-4650-904b-a9b44a322688" alt="step-1" height="450">
+
+   
 
 2. Then connected both left motor's positive terminals to "outl" and negative terminals to "out2" of the L298N driver.
 
 3. And repeated the process for the right motors and connected them to "out3" and "out4" of the motor driver.
    
-   <img src="https://github.com/mahfuzhasanreza/Bluetooth-RC-Car/blob/main/img/step-3.jpg" alt="Components" height="450">
+   <img src="https://github.com/mahfuzhasanreza/Bluetooth-RC-Car/assets/115473925/c91a0bda-4643-41b6-b980-774d8833bd2d" alt="step-3" height="450">
+
 
 4. After that we connected the battery with the motor driver. Positive terminal to 12V marked port. We marged the ground of the battery with the ESP32 ground connector to and connected it with the GND marked port. Lastly we connected the 5v from our ESP32 with the 5V maked port beside the GND of the driver so that the ESP32 board can take power from the motor driver.
 
 5. We connected the ENA, IN1, IN2, IN3, IN4, ENB ports with the ESP32's D32, D26, D27, D13, D12 & D33 no pin respectively.
 
-   <img src="https://github.com/mahfuzhasanreza/Bluetooth-RC-Car/blob/main/img/step-5.jpg" alt="Components" height="450">
+   <img src="https://github.com/mahfuzhasanreza/Bluetooth-RC-Car/assets/115473925/97ceeb01-ef10-4197-99d6-61f742c9d970" alt="step-5" height="450">
+
 
 6. We removed both of the ENA and ENB jumpers so that we can control the speed of the motors using PWM. If anyone doesn't want to control the speed of the motors then they should leave the jumper on the board.
 
@@ -45,7 +49,8 @@ Bluetooth Remote Control Car is an ESP32-based project that can avoid obstacles.
 
 ## Circuit Diagram
 
-<img src="https://github.com/mahfuzhasanreza/Bluetooth-RC-Car/blob/main/img/circuit-diagram.jpg" alt="Components" height="450">
+<img src="https://github.com/mahfuzhasanreza/Bluetooth-RC-Car/assets/115473925/9505383d-f11f-4af4-8eee-95a3f35fe408" alt="circuit-diagram" height="450">
+
 
 ## Internal Control
 
@@ -246,5 +251,11 @@ void loop(){
 }
 ```
 
+## Project Pictures and Videos
 
+<br>
 
+## _Author: [Mahfuz Hasan Reza](https://github.com/mahfuzhasanreza/)_
+ - _Connect with me on [LinkedIn](https://www.linkedin.com/in/mahfuzhasanreza/)_
+ - _Follow me on [Instagram](https://www.instagram.com/mahfuzhasanreza/)_
+ - _Connect with me on [Facebook](https://www.facebook.com/mahfuzhasanreza/)_
