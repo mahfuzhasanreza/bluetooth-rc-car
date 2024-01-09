@@ -246,5 +246,11 @@ void loop(){
 }
 ```
 
+https://github.com/mahfuzhasanreza/Bluetooth-RC-Car/assets/115473925/5ae970e3-464b-412e-b9f3-fbee0ac5e41e
 
-[![Video](https://drive.google.com/file/d/1UtVLyvHoM7pEDAg8H0bIrrqja6ulxqYr/view?fbclid=IwAR2wId6liwc35GMCXosvd9bE_jujtP-JTM_j7m3u6hOHKVws8Z-nfu8Vb08/preview)](https://drive.google.com/file/d/1UtVLyvHoM7pEDAg8H0bIrrqja6ulxqYr/view?fbclid=IwAR2wId6liwc35GMCXosvd9bE_jujtP-JTM_j7m3u6hOHKVws8Z-nfu8Vb08/preview)
+
+![aaa](https://github.com/mahfuzhasanreza/Bluetooth-RC-Car/assets/115473925/749dd9a3-5f9e-46d1-a976-3df335355bd7)
+
+
+
+
