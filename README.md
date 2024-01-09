@@ -246,11 +246,5 @@ void loop(){
 }
 ```
 
-https://github.com/mahfuzhasanreza/Bluetooth-RC-Car/assets/115473925/5ae970e3-464b-412e-b9f3-fbee0ac5e41e
-
-
-![aaa](https://github.com/mahfuzhasanreza/Bluetooth-RC-Car/assets/115473925/749dd9a3-5f9e-46d1-a976-3df335355bd7)
-
-
 
 
