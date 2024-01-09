@@ -106,7 +106,7 @@ void loop(){
   if(ESP_BT.available()){
     incoming = ESP_BT.read();
 
-    float dis= calDistance();
+    float dis = calDistance();
       if(incoming == 'S'){  // stop all
         digitalWrite(RF,LOW);
         digitalWrite(LB,LOW);
@@ -121,7 +121,7 @@ void loop(){
         analogWrite(l_pwm,speed);
         analogWrite(r_pwm,speed);                    
       }
-      if(dis<=30){
+      if(dis <= 30){
         digitalWrite(RF,LOW);
         digitalWrite(LB,LOW);
         digitalWrite(LF,HIGH);
@@ -131,7 +131,7 @@ void loop(){
       }
       
       if(incoming == 'F'){
-         if(dis>30){
+         if(dis > 30){
             digitalWrite(RF, HIGH);
             digitalWrite(LB, LOW);
             digitalWrite(LF, HIGH);
