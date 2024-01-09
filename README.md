@@ -31,7 +31,7 @@ Bluetooth Remote Control Car is an ESP32-based project that can avoid obstacles.
 
 3. And repeated the process for the right motors and connected them to "out3" and "out4" of the motor driver.
    
-   <img src="https://github.com/mahfuzhasanreza/Bluetooth-RC-Car/blob/main/img/step-3.jpg" alt="Components" width="700" height="450">
+   <img src="https://github.com/mahfuzhasanreza/Bluetooth-RC-Car/blob/main/img/step-3.jpg" alt="Components" height="450">
 
 4. After that we connected the battery with the motor driver. Positive terminal to 12V marked port. We marged the ground of the battery with the ESP32 ground connector to and connected it with the GND marked port. Lastly we connected the 5v from our ESP32 with the 5V maked port beside the GND of the driver so that the ESP32 board can take power from the motor driver.
 
